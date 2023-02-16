@@ -6,11 +6,11 @@ namespace Git
    {
     static void Main(string[] args)
       {
-      System.Console.WriteLine("Hello Git");
-      System.Console.WriteLine("Enter your name: Nikita");
-	  string name = Console.ReadLine();
-	  System.Console.WriteLine(name.Length);
-	  System.Console.WriteLine($"Hello (Nikita)!");
+      System.Console.WriteLine("Enter your first name: ");
+	  string first_name = Console.ReadLine();
+	  System.Console.WriteLine("Now enter your last name: ");
+	  srting last_name = Console.ReadLine();
+	  System.Console.WriteLine($"Hello {First_name} {Last_name}!");
       }
    }
 }
